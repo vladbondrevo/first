@@ -4,6 +4,10 @@ on:
     branches:
       - main
       - jenk
+  pull_request:
+    branches:
+      - main
+      - jenk
   workflow_dispatch:
 jobs:
   my_first_job:
